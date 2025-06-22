@@ -4,9 +4,9 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: setup/section_intro.md
+    - file: setup/setup_intro.md
       sections:
-      - file: setup/subsections/text_and_code.ipynb
+      - file: setup/text_and_code.ipynb
     - file: exercises.md
       sections:
       - file: exercises/001.md
