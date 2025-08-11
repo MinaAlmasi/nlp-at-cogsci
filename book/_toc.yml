@@ -6,7 +6,10 @@ parts:
     chapters:
     - file: setup/setup_intro.md
       sections:
-      - file: setup/text_and_code.ipynb
+      - file: setup/setup_for_exercises.md
+    - file: class1/intro.md
+      sections:
+        - file: class1/001_tokenisation.md
     - file: exercises.md
       sections:
       - file: exercises/001.md
