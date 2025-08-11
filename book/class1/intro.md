@@ -7,7 +7,7 @@ If you're interested in this topic, I suggest reading:
 > [What’s the Difference? Supporting Users in Identifying the Effects of
 Prompt and Model Changes Through Token Patterns](https://aclanthology.org/2025.acl-long.985.pdf)" by Hedderich et al. (2025)
 
-This paper presents "Spotlight", an approach to identify token patterns in prompts to make `prompt-engineering` more transparent for users. Brand new paper from ACL2025!
+This paper presents "Spotlight", an approach to identify token patterns in prompts to make `prompt-engineering` more transparent for users. Brand new paper from the biggest NLP conference "ACL2025"!
 
 
 ## Let's do some exercises now !!!
