@@ -9,9 +9,14 @@ parts:
       - file: getting_started/virtual_environments.md
   - caption: Classes
     chapters:
-      - file: class1/intro.md
+      - file: class1_intro.md
         sections:
           - file: class1/001_tokenisation.md
+      # START REMOVE-FROM-RELEASE
+      - file: class2_intro.md
+        sections:
+          - file: class2/001_bow.ipynb
+      # END REMOVE-FROM-RELEASE
   - caption: Advanced Workflow
     chapters: 
       - file: advanced_workflow/virtual_environments.md
