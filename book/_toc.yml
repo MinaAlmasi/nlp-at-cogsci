@@ -6,7 +6,6 @@ parts:
     chapters:
       - file: getting_started/technical_reqs.md
       - file: getting_started/class_setup.md 
-      - file: getting_started/virtual_environments.md
   - caption: Classes
     chapters:
       - file: class1_intro.md
@@ -20,6 +19,8 @@ parts:
   - caption: Advanced Workflow
     chapters: 
       - file: advanced_workflow/virtual_environments.md
+      - file: advanced_workflow/scripting.md
+      - file: advanced_workflow/tmux.md
   - caption: Template Pages
     chapters:
       - file: exercises.md
