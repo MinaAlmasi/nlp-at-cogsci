@@ -10,37 +10,16 @@ parts:
     chapters:
       - file: class1_intro.md
         sections:
-          - file: class1/001_tokenisation.md
-      # START REMOVE-FROM-RELEASE
+          - file: class1/001_simple_tokenisation.ipynb
       - file: class2_intro.md
         sections:
           - file: class2/001_bow.ipynb
-      # END REMOVE-FROM-RELEASE
   - caption: Advanced Workflow
     chapters: 
       - file: advanced_workflow/virtual_environments.md
       - file: advanced_workflow/scripting.md
       - file: advanced_workflow/tmux.md
-  - caption: Template Pages
+  - caption: Additional Ressources
     chapters:
-      - file: exercises.md
-        sections:
-          - file: exercises/001.md
-          - file: exercises/002.md
-          - file: exercises/003.md
-          - file: exercises/004.md
-          - file: exercises/005.md
-          - file: exercises/005a.md
-          - file: exercises/006.md
-          - file: exercises/summary
-      - file: syntax_exercises.md
-        sections:
-          - file: syntax_exercises/007.md
-          - file: syntax_exercises/008.md
-          - file: syntax_exercises/009.md
-          - file: syntax_exercises/010.md
-          - file: syntax_exercises/011.md
-          - file: syntax_exercises/012.md
       - file: references.md
-      - file: changelog.md
       - file: credits.md
