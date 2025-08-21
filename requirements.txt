@@ -8,5 +8,8 @@ teachbooks-sphinx-tippy
 sphinx-iframes
 sphinx-named-colors
 
+# APA style
+docutils==0.17.1
+
 # Now list the packages you want to download directly from GitHub
 git+https://github.com/TeachBooks/Sphinx-Thebe
