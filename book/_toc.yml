@@ -10,7 +10,7 @@ parts:
     chapters:
       - file: class1_intro.md
         sections:
-          - file: class1/001_simple_tokenisation.ipynb
+          - file: class1/001_simple_tokenization.ipynb
       - file: class2_intro.md
         sections:
           - file: class2/001_bow.ipynb
