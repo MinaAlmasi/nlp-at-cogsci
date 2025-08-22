@@ -1,16 +1,16 @@
-# Class 1: Tokenization and Prompting
-Today we'll explore some basics of language models, starting with how they represent text as tokens (**tokenization**) and moving on to how this representation can influence model behaviour when a user is **prompting** the model.
+# Class 1: Exploring Word Distributions
+All over social media, people claim that they can spot *AI-generated* text by word choices such as "delve" or "embark". We'll explore this phenomena with data from {cite:t}`herbold_large-scale_2023` containing both ChatGPT and student-written essays. For today's exercises, keep this question in mind:
 
-## NLP Paper Showcase 
-If you're interested in this topic, I suggest reading:
+```{admonition} RESEARCH QUESTION
+Do the word distributions of ChatGPT-written essays differ from student essays? And if so, how?
+```
 
-> [What’s the Difference? Supporting Users in Identifying the Effects of
-Prompt and Model Changes Through Token Patterns](https://aclanthology.org/2025.acl-long.985.pdf)" by Hedderich et al. (2025)
+### Learning Goal(s)
+Today’s goal is to introduce you to Python text processing basics with an *added* bonus being to explore the research question above. Do not worry about finishing everything or if you focus more on the coding than on the question. The important part is to use your NLP brain! 
 
-This paper presents "Spotlight", an approach to identify token patterns in prompts to make `prompt-engineering` more transparent for users. Brand new paper from the biggest NLP conference "ACL2025"!
+## Let's do some exercises
+The next few pages contain code examples (to help you get started) along with some questions and hands-on exercises. Before you click on, remember to start your UCloud run and create a new Jupyter Notebook as described in the **[Class Setup](../book/getting_started/class_setup.md)**.
 
 
-## Let's do some exercises now !!!
-Before moving to the exercises, remember to start your UCloud run and create a new Jupyter Notebook with the setup described in the [Class Setup](../setup/setup_for_exercises.md) page 
 
 
