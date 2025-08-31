@@ -4,8 +4,10 @@ root: home
 parts:
   - caption: Getting Started
     chapters:
-      - file: getting_started/technical_reqs.md
-      - file: getting_started/class_setup.md 
+      - file: technical_reqs.md
+      - file: class_setup.md 
+        sections:
+          - file: class_setup/running_jobs.md
   - caption: Classes
     chapters:
       - file: class1_intro.md
