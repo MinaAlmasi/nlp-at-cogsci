@@ -15,7 +15,7 @@ This book is an *experiment* and will continously be created during the course o
 ### Structure
 The content is mostly chronological, from technical setup in `Getting Started` to exercises and code in `Classes`. **Importantly**, note a few key elements:
 
-*Red* boxes are supposed to make you stop and either consider a `QUESTION` or get you started with a `HANDS-ON` coding exercises.
+- *Red* boxes are supposed to make you stop and either consider a `QUESTION` or get you started with a `HANDS-ON` coding exercise:
 
 ```{admonition} HANDS-ON
 :class: red
@@ -23,7 +23,7 @@ The content is mostly chronological, from technical setup in `Getting Started` t
 Do the following task ... 
 ```
 
-For tips and help, look for the green `tip` boxes:
+- For tips and help, look for the green `tip` boxes:
 ```{admonition} For loops? I need the basics!
 :class: dropdown, tip
 For loops are ..
