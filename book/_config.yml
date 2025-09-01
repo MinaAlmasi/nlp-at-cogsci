@@ -9,7 +9,7 @@ only_build_toc_files: true                           # Replace this with false i
 
 
 html:
-  favicon : "figures/TB_favicon.ico"                 # Replace this with your own favicon
+  favicon : "figures/icons8-brain-96.png"                 # Replace this with your own favicon
   baseurl :  "https://<user/org>.io/<repo>"          # Replace this with your own URL
 
 sphinx:                                              # Options passed on to the underlying sphinx-parser
@@ -21,7 +21,7 @@ sphinx:                                              # Options passed on to the 
         - pattern: ".*\\.ipynb$"
           replacement: '<a href="{url}" download>Download notebook</a>'
     thebe_config:
-      use_thebe_lite: true                           # Required for live code: https://teachbooks.io/manual/features/live_code.html
+      use_thebe_lite: false                           # Required for live code: https://teachbooks.io/manual/features/live_code.html
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"] #exclude files which should not be accessible for live code: https://teachbooks.io/manual/features/live_code.html
     html_theme_options:
       logo:
@@ -35,7 +35,7 @@ sphinx:                                              # Options passed on to the 
       use_repository_button: true                    # Replace with false if you don't want the repository button (i.e. if you have a private repo)
       use_issues_button : true                       # Replace with false if you don't want the issues button (i.e. if you don't want to use GitHub issues or have a private repo)
       launch_buttons:
-        thebe: true                                  # Required for live code: https://teachbooks.io/manual/features/live_code.html
+        thebe: false                                  # Required for live code: https://teachbooks.io/manual/features/live_code.html
     html_show_copyright: false                       # As the copyright is included in the author field
     html_last_updated_fmt: '%B %-d, %Y'              # Adds the date of the last update to the footer
     html_static_path: ["figures"]                    # Add folder that contain files that need to be included, such as the location of the logo(s)
