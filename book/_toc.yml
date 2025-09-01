@@ -7,7 +7,8 @@ parts:
       - file: technical_reqs.md
       - file: class_setup.md 
         sections:
-          - file: class_setup/running_jobs.md
+          - file: class_setup/001_running_jobs.md
+          - file: class_setup/002_jupyter.md
   - caption: Classes
     chapters:
       - file: class1_intro.md
