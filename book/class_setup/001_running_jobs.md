@@ -1,5 +1,11 @@
 # Step 1. Run a "job" on UCloud
 
+The sections below gives you a step-by-step on how to get started with UCloud. A short summary of this is:
+1. Find `Coder Python` on the workspace `NLP-E25`
+2. Mount folders `nlp` (created within your own member files) and `resources` (shared drive provided by me)
+3. Choose an appropriate machine size for X amount of hours 
+4. Submit a job !
+
 ## Choose the right workspace
 Go to [https://cloud.sdu.dk/app](https://cloud.sdu.dk/app) and start by choosing the workspace `NLP-E25` in the top right corner (if you are not part of it, check instructions on `Brightspace`):
 
@@ -88,6 +94,7 @@ Now, add another folder:
 name: add another folder
 ---
 ```
+> Note: We may not always need this folder (or it may only be needed optionally), but I suggest always mounting it to make your life easier! It will contain necessary data and models you might want to load.
 
 Here, we want to press the little arrow (1), choose the shared drive `resources` (2) and press `use folder`:
 ```{figure} ../figures/class_setup/step1-resources.png

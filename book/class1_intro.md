@@ -5,12 +5,18 @@ All over social media, people claim that they can spot *AI-generated* text by wo
 Do the word distributions of ChatGPT-written essays differ from student essays? And if so, how?
 ```
 
-### Learning Goal(s)
-Today’s goal is to introduce you to Python text processing basics with an *added* bonus being to explore the research question above. Do not worry about finishing everything or if you focus more on the coding than on the question. The important part is to use your NLP brain! 
+## Learning Guide
+Whenever there is a red box, you should stop and either answer a question or do a hands-on exercise:
+```{admonition} HANDS-ON
+:class: red
+
+Do the following task ... 
+```
+Green `tip` boxes provide help/hints to get you started!
+```{admonition} For loops? I need the basics!
+:class: dropdown, tip
+For loops are ..
+```
 
 ## Let's do some exercises
-The next few pages contain code examples (to help you get started) along with some questions and hands-on exercises. Before you click on, remember to start your UCloud run and create a new Jupyter Notebook as described in the **[Class Setup](../book/getting_started/class_setup.md)**.
-
-
-
-
+Before you click on, remember to start your UCloud run and create a new Jupyter Notebook as described in the **[Class Setup](../book/class_setup.md)**.
