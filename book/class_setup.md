@@ -16,7 +16,6 @@ I recommend creating a folder called `nbs` (short for "notebooks") by right clic
 
 Give the file a name with the extension `.ipynb` (e.g., `class1.ipynb`). 
 
-Note: If you already have a notebook, you can *drag* it from your computer to the sidebar.
 
 ## Step 3: Setting up your Jupyter Notebook
 - Code versus text chunks

@@ -1,4 +1,4 @@
-# Step 1. Running a "job" on UCloud
+# Step 1. Run a "job" on UCloud
 
 ## Choose the right workspace
 Go to [https://cloud.sdu.dk/app](https://cloud.sdu.dk/app) and start by choosing the workspace `NLP-E25` in the top right corner (if you are not part of it, check instructions on `Brightspace`):
@@ -15,6 +15,7 @@ Go to "Applications" by clicking the shopping cart
 
 ```{figure} ../figures/class_setup/step1-shopping-cart.png
 ---
+height: 200px
 name: shopping_cart
 ---
 ````
@@ -47,28 +48,27 @@ Select the amount of hours (2) and the machine type (3):
 name: define job
 ---
 ```
-
-#### Selecting the Machine: Be Mindful of our Resources!
+```{admonition} Selecting a Machine: Be Mindful!
+:class: tip
 Selecting the machine type depends on how much memory and power you need. This will vary throughout the course, but as a rule thumb, we'll rarely need anything above `u1-standard-h-16`. If you're only testing the workflow of starting a UCloud run, please select `u1-standard-h-1`! 
 
 As soon as you have selected the hours and machine type, an estimated cost will be shown:
-```{figure} ../figures/class_setup/step1-estimated-cost.png
----
-name: estimated cost
----
-```
+<img src="../figures/class_setup/step1-estimated-cost.png" alt="Estimated cost" width="400">
 
 Note the `Current Balance` - while it might seem like we have a lot, please remember that we are sharing these resources across the class, so they will drain fast if you are not mindful. This is not to say that you can't use powerful machines (for many hours even) - just make sure you need them!
+```
 
-#### Mounting a Folder 
+#### Mounting Folders 
 Go down to "select folders to use" and click on "add folder". The folders you choose here will be the ones available to you during the run:
 ```{figure} ../figures/class_setup/step1-add-folder.png
 ---
 name: add folder
 ---
 ```
+#### Add the `nlp` folder
+Here it becomes important that we are all **streamlined**. 
 
-Here it becomes important that we are all **streamlined**. If it is your first time: ensure you are in your `member files` folder (1), then press `create folder` (2). **Call the folder `nlp`**:
+If it is your first time: ensure you are in your `member files` folder (1), then press `create folder` (2). **Call the folder `nlp`**:
 ```{figure} ../figures/class_setup/step1-create-folder.png
 ---
 name: create folder
@@ -81,6 +81,7 @@ name: use nlp
 ---
 ```
 
+#### Adding the `resources` Folder (Class Resources)
 Now, add another folder:
 ```{figure} ../figures/class_setup/step1-add-another-folder.png
 ---
@@ -95,6 +96,7 @@ name: resources folder
 ---
 ```
 
+### Template Setup
 If your setup looks something like this, you are ready to press the green `submit` button above the estimated costs:
 ```{figure} ../figures/class_setup/step1-standard.png
 ---
