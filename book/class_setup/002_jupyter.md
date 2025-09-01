@@ -29,7 +29,7 @@ I recommend creating an empty notebook or using a template “skeleton.” You c
 You can create notebooks in many different ways. I have a very empty "skeleton" template of how I believe a notebook could look like at this stage:
 
 <div style="text-align: center;">
-  <a href="https://example.com">Download it here</a>
+  <a href="https://github.com/MinaAlmasi/nlp-at-cogsci/blob/main/materials/template.ipynb">Download it here</a>
 </div>
 
 **But feel free to freestyle here!**
