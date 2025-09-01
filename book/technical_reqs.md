@@ -8,4 +8,4 @@ If you do not wish to use it, you are welcome to run things on your own machine.
 ```
 
 ## Other tools 
-During the course, we'll be learning how to create [virtual environments](virtual_environments.md) and how to use `GitHub`. For the sake of simplicity, we'll wait a few classes before introducing these! If you know how to use them, go ahead! 
+During the course, we'll be learning how to create [virtual environments](virtual_environments.md) and how to use `GitHub`. For the sake of simplicity, we'll wait a few classes before introducing these!

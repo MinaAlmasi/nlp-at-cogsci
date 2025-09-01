@@ -64,6 +64,7 @@ As soon as you have selected the hours and machine type, an estimated cost will 
 Note the `Current Balance` - while it might seem like we have a lot, please remember that we are sharing these resources across the class, so they will drain fast if you are not mindful. This is not to say that you can't use powerful machines (for many hours even) - just make sure you need them!
 ```
 
+(mounting-folders)=
 #### Mounting Folders 
 Go down to "select folders to use" and click on "add folder". The folders you choose here will be the ones available to you during the run:
 ```{figure} ../figures/class_setup/step1-add-folder.png
