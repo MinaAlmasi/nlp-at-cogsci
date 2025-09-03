@@ -1,3 +1,4 @@
+(class-setup)=
 # Class Setup
 At the beginning of most NLP classes, you will need to go through the same workflow before proceeding to the coding exercises.
 
