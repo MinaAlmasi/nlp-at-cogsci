@@ -138,3 +138,6 @@ pyproject.toml
 
 # mac 
 .DS_Store
+
+# ign. resources folder
+resources/*
