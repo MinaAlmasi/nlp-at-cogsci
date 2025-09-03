@@ -1,6 +1,11 @@
 # Step 2. Set up Jupyter Notebook in Coder Python
 
-If you followed [Step 1](/book/class_setup/001_running_jobs.md#mounting-folders), you should have the following folders in your Coder Python:
+The sections below give you a step-by-step on how you should create notebooks (to standardise across the class). A short summary of this is: 
+1. Create an `nbs` folder in your `nlp` folder
+2. Create or use the provided template to create a jupyter notebook `.ipynb` within `nbs`
+
+## Starting Point
+If you followed {ref}`Step 1 <mounting-folders>`, you should have the following folders in your Coder Python:
 
 ```{figure} ../figures/class_setup/step2-folders.png
 ---
@@ -14,7 +19,7 @@ I recommend creating a folder called `nbs` (short for "notebooks") in your `nlp`
 
 ```{figure} ../figures/class_setup/step2-nbs-folder.png
 ---
-name: folders in coder python
+name: nbs-folder
 ---
 ```
 
