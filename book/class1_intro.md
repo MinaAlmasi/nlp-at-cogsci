@@ -1,5 +1,5 @@
 # Class 1: Exploring Word Distributions
-All over social media, people claim that they can spot *AI-generated* text by word choices such as "delve" or "embark". We'll explore this phenomena with data from {cite:t}`herbold_large-scale_2023` containing both ChatGPT and student-written essays. For today's exercises, keep this question in mind:
+All over social media, people claim that they can spot *AI-generated* text by word choices such as "delve" or "embark". We'll explore this phenomena with data from {cite:t}`herbold_large-scale_2023`, containing both ChatGPT and student-written essays. For today's exercises, keep this question in mind:
 
 ```{admonition} RESEARCH QUESTION
 Do the word distributions of ChatGPT-written essays differ from student essays? And if so, how?
