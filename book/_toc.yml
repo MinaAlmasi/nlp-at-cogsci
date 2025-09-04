@@ -12,6 +12,10 @@ parts:
   - caption: Classes
     chapters:
       - file: class1_intro.md
+        sections:
+          - file: class1/001_simple_tokenization.ipynb
+          - file: class1/002_spacy.ipynb
+          - file: class1/003_advanced_analysis.ipynb
       - file: class2_intro.md
   - caption: Advanced Workflow
     chapters: 
