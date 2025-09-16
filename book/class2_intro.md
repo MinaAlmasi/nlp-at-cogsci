@@ -1,7 +1,7 @@
 # Class 2. Text Classification
 Do we need to train humans to spot *AI-generated* text? Could we get a machine to do it? Schools and universites would probably pay *BIG MONEY* for technology like this (some detectors already exist!). 
 
-Today we'll use the large RAID dataset {cite:t}`dugan-etal-2024-raid` to examine the RQ:
+Today we'll use the large RAID dataset by {cite:t}`dugan-etal-2024-raid` to examine the RQ:
 
 ```{admonition} RESEARCH QUESTION
 Can we construct a classifier that can accurately predict human-written text from AI-generated text? And which representation of the text is most effective?
