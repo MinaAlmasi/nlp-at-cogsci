@@ -17,6 +17,12 @@ parts:
           - file: class1/002_spacy.ipynb
           - file: class1/003_advanced_analysis.ipynb
       - file: class2_intro.md
+        sections:
+          - file: class2/001_prepare_data.ipynb
+          - file: class2/002_bow_tfidf.ipynb
+          - file: class2/003_pipeline.ipynb
+          - file: class2/004_classify_metrics.ipynb
+          - file: class2/005_extra.ipynb
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
