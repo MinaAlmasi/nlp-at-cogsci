@@ -23,6 +23,7 @@ parts:
           - file: class2/003_pipeline.ipynb
           - file: class2/004_classify_metrics.ipynb
           - file: class2/005_extra.ipynb
+      - file: class3_intro.md
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
