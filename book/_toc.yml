@@ -24,6 +24,10 @@ parts:
           - file: class2/004_classify_metrics.ipynb
           - file: class2/005_extra.ipynb
       - file: class3_intro.md
+        sections:
+          - file: class3/001_word_embeddings.ipynb
+          - file: class3/002_topic_modeling.ipynb
+          - file: class3/003_play.ipynb
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
