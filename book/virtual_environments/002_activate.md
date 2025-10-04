@@ -33,11 +33,11 @@ Activating your `.venv` in Jupyter only works if you have followed {ref}`Step 3<
 :::
 
 To activate your environment for Jupyter, you need to select the kernel in the interface:
-![activate your venv in notebook](../figures/advanced_workflow/jp-venv-1.png)
+![activate your venv in notebook](../figures/virtual_environments/jp-venv-1.png)
 
 Select ".venv":
-![activate your venv in notebook](../figures/advanced_workflow/jp-venv-2.png)
+![activate your venv in notebook](../figures/virtual_environments/jp-venv-2.png)
 
 Should look like this, if it worked:
-![activate your venv in notebook](../figures/advanced_workflow/jp-venv-3.png)
+![activate your venv in notebook](../figures/virtual_environments/jp-venv-3.png)
 
