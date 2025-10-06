@@ -62,7 +62,7 @@ This lets you define functions outside of `main()` or even import your own from 
 name: py scripts name_fn
 ```
 
-## Running the code
+## Running the Code
 To run the script, you need to locate where it is placed:
 ```bash
 cd nlp/src
@@ -89,3 +89,13 @@ source .venv/bin/activate
 
 python nlp/src/class4.py
 ```
+
+## Stopping the Code
+Sometimes, you might run something that takes a long time or is buggy in some way. Let's say you really wanted to print a bunch of numbers:
+```python
+i = 0
+while True:
+    print(i)
+    i += 1
+```
+The code above will literally run FOREVER. Press `CTLR + C`.
