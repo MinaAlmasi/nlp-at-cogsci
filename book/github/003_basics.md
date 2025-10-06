@@ -70,3 +70,26 @@ git push
 
 
 ## Push in the Interface
+You can also do the whole workflow in Coder Python! Click on the "+" to add a change:
+```{figure} ../figures/github/10-git-coder-python.png
+---
+name: git-coder-python-star
+width: 80%
+---
+```
+
+Write your commit in the message box and press COMMIT
+```{figure} ../figures/github/11-git-coder-python.png
+---
+name: git-coder-python-msg
+width: 80%
+---
+```
+
+Press the "Sync Changes" button:
+```{figure} ../figures/github/12-git-coder-python.png
+---
+name: git-coder-sync
+width: 80%
+---
+```
