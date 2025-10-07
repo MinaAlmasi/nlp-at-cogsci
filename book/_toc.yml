@@ -36,6 +36,7 @@ parts:
           - file: virtual_environments/001_install.md
           - file: virtual_environments/002_activate.md
           - file: virtual_environments/003_alternatives.md
+      - file: dependency_management.md
       - file: github.md
         sections:
           - file: github/001_create_repo.md
