@@ -43,6 +43,7 @@ parts:
           - file: github/002_integrate_ucloud.md
           - file: github/003_push_and_pull.md
           - file: github/004_branch.md
+          - file: github/005_structure.md
       - file: python_scripts.md
       - file: tmux.md
   - caption: Additional Resources
