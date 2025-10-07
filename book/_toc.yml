@@ -28,6 +28,7 @@ parts:
           - file: class3/001_word_embeddings.ipynb
           - file: class3/002_topic_modeling.ipynb
           - file: class3/003_play.ipynb
+      - file: class4_intro.md
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
