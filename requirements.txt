@@ -8,6 +8,9 @@ teachbooks-sphinx-tippy
 sphinx-iframes
 sphinx-named-colors
 
+# accessibility options
+sphinx-accessibility
+
 # APA style
 docutils==0.17.1
 
