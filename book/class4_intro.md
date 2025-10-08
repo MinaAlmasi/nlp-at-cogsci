@@ -11,6 +11,7 @@ After Class 4, I recommend going through all the pages in the `Advanced Workflow
 - [GitHub](github.md)
 - [Python Scripts](python_scripts.md)
 - [Tmux](tmux.md)
+- [Pathlib](pathlib.md)
 
 If you have any questions or comments for this, you can write it on this new [TaskCards](https://aarhusuni.taskcards.app/#/board/0a321018-b7fb-47c8-aafe-9e50562e3399?token=65362b4b-43c0-4a6e-bbe0-c81131d990da) (password is the same as last time, check Brightspace if in doubt!)
 
