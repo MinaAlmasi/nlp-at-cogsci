@@ -46,7 +46,9 @@ parts:
           - file: github/005_structure.md
       - file: python_scripts.md
       - file: tmux.md
-      - file: pathlib.ipynb
+      - file: pathlib.md
+        sections:
+            - file: pathlib/001_navigate.ipynb
   - caption: Additional Resources
     chapters:
       - file: references.md
