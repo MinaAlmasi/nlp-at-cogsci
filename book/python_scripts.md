@@ -98,4 +98,4 @@ while True:
     print(i)
     i += 1
 ```
-The code above will literally run FOREVER. Press `CTLR + C`.
+The code above will literally run FOREVER. Press `CTLR + C` to stop it!

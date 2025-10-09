@@ -38,7 +38,18 @@ name: config-repo
 width: 90%
 ---
 ```
-We won't choose a license (3) today (and it is not needed for this course), but it can be useful for 
+We will not choose a license (3) for this tutorial (not strictly needed for this course). See below to learn more about licenses & `.gitignore`!
+
+:::{admonition} When to use a license? Which license?
+:class: tip, dropdown
+Adding a `LICENSE` file is useful if you are developing code for research projects or software packages, as it clearly states how others can use, modify, or share your code.
+
+For public repositories, people often choose licenses that are quite lenient, such as **MIT** or **Apache 2.0**. For help deciding, see GitHub's own [choosealicense.com](https://choosealicense.com/).
+
+If you feel like adding a license, go for it! Using GitHub’s **Add file** option allows you to insert one of their ready-made templates:
+
+![add-license](../figures/github/github-add-license.png)
+:::
 
 :::{admonition} What is `.gitignore`? & Tip for Mac!
 :class: tip, dropdown
