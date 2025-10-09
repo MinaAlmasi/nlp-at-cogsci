@@ -54,15 +54,16 @@ Select the amount of hours (2) and the machine type (3):
 name: define job
 ---
 ```
-```{admonition} Selecting a Machine: Be Mindful!
+:::{admonition} Selecting a Machine: Be Mindful!
 :class: tip, dropdown
 Selecting the machine type depends on how much memory and power you need. This will vary throughout the course, but as a rule thumb, we'll rarely need anything above `u1-standard-h-16`. If you're only testing the workflow of starting a UCloud run, please select `u1-standard-h-1`! 
 
 As soon as you have selected the hours and machine type, an estimated cost will be shown:
-<img src="../figures/class_setup/step1-estimated-cost.png" alt="Estimated cost" width="400">
+![estimated-cost](../figures/class_setup/step1-estimated-cost.png)
 
-Note the `Current Balance` - while it might seem like we have a lot, please remember that we are sharing these resources across the class, so they will drain fast if you are not mindful. This is not to say that you can't use powerful machines (for many hours even) - just make sure you need them!
-```
+**Note on Current Balance**  
+While it might seem like we have a lot, please remember that we are sharing these resources across the class, so they will drain fast if you are not mindful. This is not to say that you can't use powerful machines (for many hours even), just make sure you need them!
+:::
 
 (mounting-folders)=
 #### Mounting Folders 
