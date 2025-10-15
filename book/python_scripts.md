@@ -1,5 +1,5 @@
 # Python Scripts
-So far, we have worked exclusively in notebooks, which are useful for learning experimenting with small code snippets. For a more professional workflow, using scripts is often preferable.
+So far, we have worked exclusively in notebooks, which are useful for learning or experimenting with small code snippets. For a more professional workflow, using scripts is often preferable.
 
 ```{figure} figures/python_scripts/nbs_to_src.png
 ---
