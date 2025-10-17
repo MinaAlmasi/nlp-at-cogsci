@@ -141,3 +141,6 @@ pyproject.toml
 
 # ign. resources folder
 resources/*
+
+# ign. training folder
+book/training/*
