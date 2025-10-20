@@ -1,7 +1,5 @@
 # Class 5. BERT 
-Today, we finally dive properly into `transformers` and explore traditional **fine-tuning** of `BERT` with large datasets, but also a modern approach to train a BERT-based classifier on a few hand-annotated examples.  
-
-Imagine you work at an EdTech startup building intelligent assessment platforms. Teachers contribute STEM exam questions, but subject labels are often missing or inconsistent. Using historical data, you will explore:  
+Imagine you work at an EdTech startup building intelligent assessment platforms. Teachers contribute with exam questions, but subject labels (e.g., "Math" or "Biology") are often missing or inconsistent. Using historical data, you will explore:  
 
 ```{admonition} RESEARCH QUESTION
 Can a BERT-based classifier reliably categorize exam questions by subject?  
@@ -9,10 +7,13 @@ Can a BERT-based classifier reliably categorize exam questions by subject?
 
 *Dataset: [STEM exam questions used in India](https://www.kaggle.com/datasets/mrutyunjaybiswal/iitjee-neet-aims-students-questions-data/data)*
 
+We'll investigate this RQ using both traditional **fine-tuning** of `BERT` with large datasets, but also a modern approach to train a BERT-based classifier on a few hand-annotated examples.  
+
+
 ## Learning Guide
 Whenever there is a red box, you should stop and either answer a question or do a hands-on exercise:
 ```{admonition} HANDS-ON
-:class: reds
+:class: red
 
 Do the following task ... 
 ```
