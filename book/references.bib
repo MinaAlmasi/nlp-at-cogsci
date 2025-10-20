@@ -184,3 +184,18 @@
   url          = {https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/},
   github       = {https://github.com/HandsOnLLM/Hands-On-Large-Language-Models}
 }
+@misc{wang_minilm_2020,
+	title = {{MiniLM}: {Deep} {Self}-{Attention} {Distillation} for {Task}-{Agnostic} {Compression} of {Pre}-{Trained} {Transformers}},
+	shorttitle = {{MiniLM}},
+	url = {http://arxiv.org/abs/2002.10957},
+	doi = {10.48550/arXiv.2002.10957},
+	abstract = {Pre-trained language models (e.g., BERT (Devlin et al., 2018) and its variants) have achieved remarkable success in varieties of NLP tasks. However, these models usually consist of hundreds of millions of parameters which brings challenges for fine-tuning and online serving in real-life applications due to latency and capacity constraints. In this work, we present a simple and effective approach to compress large Transformer (Vaswani et al., 2017) based pre-trained models, termed as deep self-attention distillation. The small model (student) is trained by deeply mimicking the self-attention module, which plays a vital role in Transformer networks, of the large model (teacher). Specifically, we propose distilling the self-attention module of the last Transformer layer of the teacher, which is effective and flexible for the student. Furthermore, we introduce the scaled dot-product between values in the self-attention module as the new deep self-attention knowledge, in addition to the attention distributions (i.e., the scaled dot-product of queries and keys) that have been used in existing works. Moreover, we show that introducing a teacher assistant (Mirzadeh et al., 2019) also helps the distillation of large pre-trained Transformer models. Experimental results demonstrate that our monolingual model outperforms state-of-the-art baselines in different parameter size of student models. In particular, it retains more than 99\% accuracy on SQuAD 2.0 and several GLUE benchmark tasks using 50\% of the Transformer parameters and computations of the teacher model. We also obtain competitive results in applying deep self-attention distillation to multilingual pre-trained models.},
+	urldate = {2025-10-20},
+	publisher = {arXiv},
+	author = {Wang, Wenhui and Wei, Furu and Dong, Li and Bao, Hangbo and Yang, Nan and Zhou, Ming},
+	month = apr,
+	year = {2020},
+	note = {arXiv:2002.10957 [cs]},
+	keywords = {Computer Science - Computation and Language},
+	file = {Preprint PDF:/Users/au675000/Zotero/storage/RR7T822M/Wang et al. - 2020 - MiniLM Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers.pdf:application/pdf;Snapshot:/Users/au675000/Zotero/storage/ED79A8XB/2002.html:text/html},
+}
