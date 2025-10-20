@@ -31,6 +31,7 @@ parts:
       - file: class4_intro.md
         sections:
           - file: class4/001_assignment.md
+      - file: class5_intro.md
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
