@@ -29,7 +29,7 @@ width: 100%
 ```
 
 2) Then, go to **[Class Setup](../book/class_setup.md)** and repeat the guide. That is, you need to create a new `nlp` folder in your AAU member files and mount the new `resources` AAU drive. 
-<br><br>
+> Consider adding a prefix to your job name `AAU_jobname` to more easily distinguish between SDU & AAU when pressing "run again".
 
 3) Start the AAU CPU run and repeat the [virtual environment](../book/virtual_environments.md) setup. Install `pandas` as start. 
 
