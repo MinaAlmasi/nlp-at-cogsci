@@ -148,3 +148,6 @@ book/training/*
 
 # ign data folder
 book/data/*
+
+# ign models
+book/models/*
