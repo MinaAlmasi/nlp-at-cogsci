@@ -139,8 +139,15 @@ pyproject.toml
 # mac 
 .DS_Store
 
+# IGNORED AS THESE DIRECTORIES ARE FOR WHEN RUNNING THE NBS IN UCLOUD
 # ign. resources folder
 resources/*
 
 # ign. training folder
 book/training/*
+
+# ign data folder
+book/data/*
+
+# ign models
+book/models/*
