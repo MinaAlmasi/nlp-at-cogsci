@@ -9,6 +9,7 @@ parts:
         sections:
           - file: class_setup/001_running_jobs.md
           - file: class_setup/002_jupyter.md
+      - file: gpu_guide.md
   - caption: Classes
     chapters:
       - file: class1_intro.md
@@ -31,6 +32,11 @@ parts:
       - file: class4_intro.md
         sections:
           - file: class4/001_assignment.md
+      - file: class5_intro.md
+        sections:
+          - file: class5/001_finetune.ipynb
+          - file: class5/002_setfit.ipynb
+          - file: class5/003_other_tasks.ipynb
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
