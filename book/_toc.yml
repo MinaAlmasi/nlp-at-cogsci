@@ -37,6 +37,7 @@ parts:
           - file: class5/001_finetune.ipynb
           - file: class5/002_setfit.ipynb
           - file: class5/003_other_tasks.ipynb
+      - file: class6_intro.md
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
