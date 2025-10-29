@@ -38,6 +38,10 @@ parts:
           - file: class5/002_setfit.ipynb
           - file: class5/003_other_tasks.ipynb
       - file: class6_intro.md
+        sections:
+          - file: class6/001_prompting.ipynb
+          - file: class6/002_chatbot.ipynb
+          - file: class6/003_llms.ipynb
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
