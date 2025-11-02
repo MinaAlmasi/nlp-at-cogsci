@@ -1,2 +1,2 @@
-# Class 8. How to Mitigate Harms in NLP
+# Class 8. Measure & Mitigate Harmful Content
 Coming soon!
