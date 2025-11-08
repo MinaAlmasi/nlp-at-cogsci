@@ -1,2 +1,2 @@
-# Class 8. Measure & Mitigate Harmful Content
+# Class 8. Mitigate Harmful Content
 Coming soon!
