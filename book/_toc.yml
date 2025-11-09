@@ -45,7 +45,7 @@ parts:
       - file: class8_intro.md
         sections:
           - file: class8/001_steering_vectors.ipynb
-          - file: class8/002_bias_benchmark.ipynb
+          - file: class8/002_lora.ipynb
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
