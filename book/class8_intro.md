@@ -1,2 +1,2 @@
-# Class 8. Mitigate Harmful Content
+# Class 8. Reducing Bias in LLMs
 Coming soon!
