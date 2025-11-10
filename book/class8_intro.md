@@ -1,2 +1,2 @@
-# Class 8. Reducing Bias in LLMs
+# Class 8. NLP for Social Good
 Coming soon!
