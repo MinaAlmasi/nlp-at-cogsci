@@ -1,0 +1,28 @@
+## REQUIREMENTS FILE FOR NOTEBOOKS IN BOOK #
+
+# added with pigar
+datasets==4.1.1 # in ucloud it is 4.4.1 (probably safe to upgrade, will keep this version for now)
+dialz==1.1.4
+evaluate==0.4.6
+gensim==4.3.3
+matplotlib==3.10.5
+numpy==1.26.4
+pandas==2.3.2
+peft==0.17.1
+pybtex==0.25.1
+scikit-learn==1.7.1
+seaborn==0.13.2
+sentence-transformers==5.1.0
+setfit==1.1.3
+shap==0.48.0
+six==1.17.0
+spacy==3.8.7
+textdescriptives==2.8.4
+torch==2.8.0
+transformers==4.56.2 # in ucloud it is 4.57.1 (probably safe to upgrade, will keep this version for now)
+trl==0.25.0
+turftopic==0.17.5
+
+# added manually
+accelerate==1.11.0
+ipykernel==6.30.1
