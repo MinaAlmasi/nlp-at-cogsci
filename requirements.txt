@@ -1,4 +1,5 @@
 # first list the packages you wish to download from PyPI
+sphinx>=7
 teachbooks # depends on jupyter-book
 jupyterbook-patches
 sphinx-image-inverter
