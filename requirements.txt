@@ -13,7 +13,7 @@ sphinx-named-colors
 sphinx-accessibility
 
 # APA style
-docutils==0.17.1
+docutils
 
 # Now list the packages you want to download directly from GitHub
 git+https://github.com/TeachBooks/Sphinx-Thebe
