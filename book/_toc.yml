@@ -1,5 +1,5 @@
 format: jb-book
-root: home
+root: index
 
 parts:
   - caption: Getting Started
