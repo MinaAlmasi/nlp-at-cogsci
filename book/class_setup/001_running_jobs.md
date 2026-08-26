@@ -60,72 +60,108 @@ Start by giving your job a name (1).
 :class: warning, dropdown
 **Try to give your job a meaningful name and avoid using the same name for several jobs.**
 
-This can be important as UCloud saves relevant files under each job name upon ending them. Did you end a job prematurely in one class and need a specific version of the files in another? Look at the job!
+UCloud saves relevant files under each job name upon ending them. If you end a job prematurely and need a specific version of the files for another job, you can look in the "ended" job! Easier when you can distinguish between jobs :D
 :::
 
-Select the amount of hours (2) and the machine type (3):
-```{figure} ../figures/class_setup/step1-define-job.png
+Select the amount of hours (2) and select "CPU" as machine type (3)
+```{figure} ../figures/class_setup/step1-define-job-2026.png
 ---
 name: define job
 ---
 ```
-> For now, select the smallest machine! You don't need more for setting up!
+
+#### Selecting the right machine (CPU)
+For now, go ahead an select the smallest CPU machine `1vCPU` (longer name: `cpu-amd-zen5-1-vcpu`). You won't need more for setting up! 
+
+```{figure} ../figures/class_setup/step1-vcpus.png
+---
+name: select right cpu
+---
+```
 
 :::{admonition} Selecting a Machine: Be Mindful!
 :class: warning
-Selecting the machine type depends on how much memory and power you need. This will vary throughout the course! But we need to be mindful, since we do not have unlimited credits. Please read the sections on [UCloud:Best Practice](/book/ucloud_best_practice.md)
+The machine size (i.e., amount of ram) depends on the NLP task, with later classes needing bigger machines (and even GPUs!). Please read the sections [UCloud: Best Practice](/book/ucloud_best_practice.md) for how to be mindful about our shared resources! We don't have unlimited!
+
+**I will also recommend a machine size prior to each class, where you'll begin to get a feel for it.**
 :::
 
 (mounting-folders)=
 #### Mounting Folders 
-Go down to "select folders to use" and click on "add folder". The folders you choose here will be the ones available to you during the run:
-```{figure} ../figures/class_setup/step1-add-folder.png
+Scroll down to **Select folders to use** and click on **Add folder**:
+```{figure} ../figures/class_setup/step1-add-folder-2026.png
 ---
 name: add folder
 ---
 ```
-#### Add the `nlp` Folder
-Here it becomes important that we are all **streamlined**. 
+> Only the folders you choose here will be available for the duration of this UCloud job.
 
-If it is your first time: ensure you are in your `member files` folder (1), then press `create folder` (2). **Call the folder `nlp`**:
+Now press on empty white bar (which says *No directory selected*):
+```{figure} ../figures/class_setup/step1-add-folder-part-2-2026.png
+---
+name: add folder
+---
+```
+
+##### Add the `nlp` Folder
+
+:::{warning}
+Now it becomes important that we are all **streamlined** !
+:::
+
+
+THE FIRST TIME: 
+1. Ensure you are in your **Member files** (i.e., folder with your name)
+2. Press **Create folder**
+3. Call the folder `nlp` (lowercase!!!):
 ```{figure} ../figures/class_setup/step1-create-folder.png
 ---
 name: create folder
 ---
 ```
-Press `use` to mount the `nlp folder`:
+When you have created the folder (or if you had already), press **use** to mount the `nlp` folder:
 ```{figure} ../figures/class_setup/step1-nlp.png
 ---
 name: use nlp
 ---
 ```
 
-#### Adding the `resources` Folder (Class Resources)
-Now, add another folder:
+##### Add the `resources` Folder (Class Resources)
+The class **resources** is a shared folder (created by me) which contains necessary data and models that you might need for an exercise. 
+
+**Press to add another folder**:
+
 ```{figure} ../figures/class_setup/step1-add-another-folder.png
 ---
 name: add another folder
 ---
 ```
-> Note: We may not always need this folder (or it may only be needed optionally), but I suggest always mounting it to make your life easier! It will contain necessary data and models you might want to load.
 
-Here, we want to press the little arrow (1), choose the shared drive `resources` (2) and press `use folder`:
-```{figure} ../figures/class_setup/step1-resources.png
+:::{admonition} Always mount it, even if you don't need it!
+:class: tip, dropdown
+We may not always need this folder (or it may only be needed optionally).
+
+**However, I recommend always mounting it to make your life easier!** This way, you won't need to end a job and make a new one, if you realize mid-way that you wanted the **resources** folder.
+:::
+
+
+**Press the small arrow** (1), choose the drive **resources** (2) and **press use folder** (3):
+```{figure} ../figures/class_setup/step1-resources-2026.png
 ---
 name: resources folder
 ---
 ```
 
 ### Template Setup
-If your setup looks something like this, you are ready to press the green `submit` button above the estimated costs:
-```{figure} ../figures/class_setup/step1-standard.png
+**If your setup looks something like the one below, you are ready to press the green Submit button** above the estimated costs:
+```{figure} ../figures/class_setup/step1-template.png
 ---
-name: standard setup
+name: template setup
 ---
 ```
 
 ## Open the Interface
-When having pressed `submit`, you will be met with a loading screen before seeing `job_name is now running`. Go ahead and press the "open interface" !
+After pressing Submit, you will get a loading screen before seeing **JOB_NAME is now running**. You can now press **Open Interface:**
 
 
 ```{figure} ../figures/class_setup/step1-interface.png
@@ -134,4 +170,12 @@ name: interface
 ---
 ```
 
-> Note: You can easily extend your job by an hour (+1) or more with the buttons underneath the timer! 
+
+:::{admonition} Extending the job
+:class: tip
+You can easily extend your job by an hour (+1) or more with the three buttons below **Time Remaining** on the left box.
+
+See [UCloud: Best Practice](/book/ucloud_best_practice.md).
+:::
+
+
