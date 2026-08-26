@@ -1,23 +1,29 @@
 # Step 1. Run a "Job" on UCloud
 
 The sections below gives you a step-by-step on how to get started with UCloud. A short summary of this is:
-1. Find `Coder Python` on the workspace `NLP-E25`
+1. Find `Coder Python` on the workspace `E26_LICS_NaturalLanguageProcessing`
 2. Mount folders `nlp` (created within your own member files) and `resources` (shared drive provided by me)
 3. Choose an appropriate machine size for X amount of hours 
 4. Submit a job !
 
 ## Choose the Right Workspace
-Go to [https://cloud.sdu.dk/app](https://cloud.sdu.dk/app) and start by choosing the workspace `NLP-E25` in the top right corner (if you are not part of it, check instructions on `Brightspace`):
+Go to [https://cloud.sdu.dk/app](https://cloud.sdu.dk/app). In the top right corner, choose the workspace `E26_LICS_NaturalLanguageProcessing`:
 
-```{figure} ../figures/class_setup/step1-choose-workspace.png
+```{figure} ../figures/class_setup/step1-choose-workspace-2026.png
 ---
-height: 150px
+height: 130px
 name: choose-right-workspace
 ---
+
+:::{tip} 
+Hit the *star button* to favourite the workspace :)
+:::
+
 ```
+> If you are not part of the workspace yet, check instructions on [Brightspace](https://brightspace.au.dk/d2l/home/216059) or ask me.
 
 ### Find Coder Python
-Go to "Applications" by clicking the shopping cart 
+On the left sidebar, find **Applications** by clicking the **shopping cart**:
 
 ```{figure} ../figures/class_setup/step1-shopping-cart.png
 ---
@@ -34,8 +40,10 @@ name: coder-python
 ---
 ```
 
-Select `Python` not `Base`. Note also that the version should ALWAYS be `1.103.1`:
-```{figure} ../figures/class_setup/step1-select-python-and-version.png
+#### Choose Version
+1. Select `Python` not `Base` 
+2. keep the version at `1.131.0` for consistent bug-fixing.
+```{figure} ../figures/class_setup/step1-select-python-and-version-2026.png
 ---
 name: coder-python-select-version
 ---
@@ -46,7 +54,14 @@ Hit the *star button* to favourite Coder Python *after* selecting the correct ve
 ```
 
 ### Defining Your Job 
-Start by giving your job a name (1). Try to give your job a meaningful name (and avoid using the same name for several jobs).
+Start by giving your job a name (1).
+
+:::{admonition} Give jobs meaningful names!
+:class: warning, dropdown
+**Try to give your job a meaningful name and avoid using the same name for several jobs.**
+
+This can be important as UCloud saves relevant files under each job name upon ending them. Did you end a job prematurely in one class and need a specific version of the files in another? Look at the job!
+:::
 
 Select the amount of hours (2) and the machine type (3):
 ```{figure} ../figures/class_setup/step1-define-job.png
@@ -54,15 +69,11 @@ Select the amount of hours (2) and the machine type (3):
 name: define job
 ---
 ```
+> For now, select the smallest machine! You don't need more for setting up!
+
 :::{admonition} Selecting a Machine: Be Mindful!
-:class: tip, dropdown
-Selecting the machine type depends on how much memory and power you need. This will vary throughout the course, but as a rule thumb, we'll rarely need anything above `u1-standard-h-16`. If you're only testing the workflow of starting a UCloud run, please select `u1-standard-h-1`! 
-
-As soon as you have selected the hours and machine type, an estimated cost will be shown:
-![estimated-cost](../figures/class_setup/step1-estimated-cost.png)
-
-**Note on Current Balance**  
-While it might seem like we have a lot, please remember that we are sharing these resources across the class, so they will drain fast if you are not mindful. This is not to say that you can't use powerful machines (for many hours even), just make sure you need them!
+:class: warning
+Selecting the machine type depends on how much memory and power you need. This will vary throughout the course! But we need to be mindful, since we do not have unlimited credits. Please read the sections on [UCloud:Best Practice](/book/ucloud_best_practice.md)
 :::
 
 (mounting-folders)=
