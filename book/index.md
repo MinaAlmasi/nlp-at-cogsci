@@ -47,5 +47,5 @@ Do the following task ...
 For loops are ..
 ```
 
-### Feedback Is Welcome!
+### Feedback is Welcome!
 This book was created in 2025 as an *experiment* to avoid pre-filled notebooks that encourage "clicking" more than writing code. It was luckily well-received! However, I'm sure there are things in this book that work better than others. **Be sure to let me know if you have any feedback**.
