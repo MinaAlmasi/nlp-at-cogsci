@@ -8,10 +8,12 @@ If you do not wish to use it, you are welcome to run things on your own machine.
 ```
 
 ## Advanced Workflow
-In the beginning, we'll stick to just UCloud and notebooks for simplicitiy. After a few classes, I'll start to introduce these tools:
+For simplicity, we will only use notebooks & UCloud to begin with. After a few classes, I will start to introduce these tools:
 1. [Virtual Environments](virtual_environments.md)
 2. [GitHub](github.md) 
 3. [Python Scripts](python_scripts.md)
 4. [Tmux](tmux.md)
 
-> Note: We'll start on a basic level, but there may also be new tips & tricks for those of you who are already familliar with these tools.
+These tools will be helpful for the exam.
+
+> There are no prerequisites: We will begin at a basic level with these tools. However, there will also be new tips & tricks for those already familiar.
