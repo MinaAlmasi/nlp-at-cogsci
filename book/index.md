@@ -4,10 +4,10 @@
 
 Welcome to **workbook** for the **Natural Language Processing** course on the Cognitive Science MSc at Aarhus University (semester E26).
 
-This course is run by  **Mina Almasi** (mina@cc.au.dk) who has created this book for you!
+This course is run by  **Mina Almasi** (mina@cc.au.dk), the creator of this book!
 
 ### Quick Links
-While **all code and class exercises are in this book**, these links are also worth noting: 
+This book contains **all code and class exercises**. Other useful content can be found here:
 ::::{grid}
 :gutter: 3
 
@@ -31,9 +31,9 @@ Our coding platform.
 ::::
 
 ## About This Book
-The **structure of the book** is mostly chronological, from technical setup in `Getting Started` to exercises and code in `Classes`. **Importantly**, note a few key elements:
+The **structure of the book** is mostly chronological, from technical setup in `Getting Started` to exercises and code in `Classes`. Many pages contain these key elements to guide you:
 
-**Red** boxes are supposed to make you stop and either consider a `QUESTION` or get you started with a `HANDS-ON` coding exercise:
+<span style="color: darkred; font-weight:700;">Red</span> boxes are supposed to make you stop and either consider a `QUESTION` or get you started with a `HANDS-ON` coding exercise:
 
 ```{admonition} QUESTION / HANDS-ON
 :class: red
@@ -41,7 +41,7 @@ The **structure of the book** is mostly chronological, from technical setup in `
 Do the following task ... 
 ```
 
-**Green** `tip` boxes provide hints, help or additional info!
+<span style="color: darkgreen; font-weight:700;">Green</span> `tip` boxes provide hints, help or additional info!
 ```{admonition} For loops? I need the basics!
 :class: dropdown, tip
 For loops are ..
