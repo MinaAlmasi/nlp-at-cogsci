@@ -178,4 +178,17 @@ You can easily extend your job by an hour (+1) or more with the three buttons be
 See [UCloud: Best Practice](/book/ucloud_best_practice.md).
 :::
 
+### Detail: "Trusting the workspace" 
+Newer versions of Coder Python on UCloud show this banner when opening the interface. Press **Manage**
+```{figure} ../figures/class_setup/step1-restricted-mode-banner.png
+---
+name: restricted mode (banner)
+---
+```
 
+Press **Trust** to open up for the full functionality of Coder Python:
+```{figure} ../figures/class_setup/step1-restricted-mode-modal.png
+---
+name: restricted mode (modal)
+---
+```
