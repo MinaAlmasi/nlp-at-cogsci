@@ -44,5 +44,5 @@ You can create notebooks in many different ways. Below is an empty "skeleton" te
 
 > **Feel free to freestyle here!**
 
-## "Trusting the workspace" 
-Newer versions of Coder Python on UCloud show a "trust the workspace" banner. If you see this, please press on it "trust the workspace" to get everything up an running!
+## Close your run
+Once you are done with UCloud, please always remember to close your run (See [UCloud: Best Practice](/book/ucloud_best_practice.md)).
