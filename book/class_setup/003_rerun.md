@@ -1,8 +1,8 @@
 # Step 3. Re-run, don't start over at Step 1!
 After doing [Step 1](/book/class_setup/001_running_jobs.md) and [Step 2](/book/class_setup/002_jupyter.md), you hopefully closed your UCloud run! **The good news is that everything will be easier next time.** A short summary of this guide: 
-1. Find the jobs page
+1. Find the `Jobs` page
 2. Find a previous job and press "re-run" 
-3. Update that previous job with new details (e.g., new name and/or different machine size)
+3. **Update that previous job** with new details (e.g., new name and/or different machine size)
 4. Run your new job, created from a previous one. 
 
 :::{admonition} You don't actually need to open a new job
