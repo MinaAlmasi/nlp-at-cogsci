@@ -22,7 +22,10 @@ The reason that I keep pestering about UCloud is that we're running **on shared 
 1. We have a limited set of hours/credits for CPU and GPU that we share as a class (the same goes for storage...)
 2. Other people (in other courses) might be waiting in line for the machine you are currently using! 
 
-**This does not mean that you should be afraid to use our resources!** It means that you should try to use them *well*.
+:::{admonition} Not trying to scare you!
+:class: important
+**This does xnot mean you should be afraid to use our resources!** The guidelines below are meant to help you use the resources *well*.
+:::
 
 ## General Guidelines for Responsible Use
 Make sure you read the guidelines below carefully. As with any guidelines, there might exceptions (ask me if in doubt!)
@@ -40,10 +43,17 @@ name: interface
 This makes it less critical if you forget to close a job (always try to do so!). It is **especially important for GPU runs** where we have more limited resources.
 :::
 
-:::{dropdown} 3. Use the smallest machine possible for any kind of task 
+:::{dropdown} 3. Use the smallest machine possible.
 This does not mean you should never use a big CPU (`v16CPUs` or `v32CPUs`) or that you should be afraid to use GPUs. However, you will rarely need `v16CPUs`. Simple classification often only needs `2vCPUs`or `4vCPUs`. 
 
-Feel free to experiment & start jobs with various machine sizes. **Just make sure to down-size if you see that you aren't using the right one (see point 6)**
+For CPU, feel free free to experiment & start jobs with various machine sizes. **Just make sure to down-size if you see that you aren't using the right one (see point 6)**. 
+
+For GPU, use **only size 1/7 & 2/7** (sounds small, but they are quite powerful):
+```{figure} /figures/ucloud_best_practice/gpu-usage.png
+---
+name: gpu-usage
+---
+```
 
 :::{dropdown} For class, I'll recommend!
 :color: warning
@@ -108,7 +118,7 @@ Modified from [gpu-mart.com](https://www.gpu-mart.com/blog/monitor-gpu-utilizati
 :::
 :::
 
-:::{dropdown} 7. Clear out storage you are not using!
+:::{dropdown} 7. Delete unused storage
 NLP tends to fill up a ton, turns out LLMs are *really* that big! If you end up downloading data or models that you don't need (e.g., for the exam), make sure to delete them.
 
 :::{dropdown} NB. STORAGE WILL BE DELETED MARCH 1ST
@@ -119,10 +129,25 @@ To clear up space for the next cogsci courses, your files will be deleted after 
 
 :::
 
+For the exam specifically:
+:::{dropdown} 8. Scale your exam projects according to our machine sizes 
+:color:
+While you are encouraged to experiment with bigger machines, we (unfortunately) can't upsize endlessly. As mentioned, you should **only use GPUs of size 1/7 & 2/7** (to make resources last entire class):
+```{figure} /figures/ucloud_best_practice/gpu-usage.png
+---
+name: interface
+---
+```
+**You might want to scope out your exam project to fit this.** E.g., using a smaller LLM or a subset of your data. Come talk to me about best solutions!
+
+**Don't worry too much about this now!**
+:::
+
 :::{admonition} You can always ask me :)
 :class: important
 Again, whether it is an exception or just a question, please always feel free to ask me when in doubt! I can help you choose machines or clear up any confusion.
 :::
+
 
 ## Is UCloud Slow Today?
 If you are following the guidelines and find UCloud slow, it might not be your fault. Sometimes, UCloud might be down:
