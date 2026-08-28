@@ -24,7 +24,7 @@ The reason that I keep pestering about UCloud is that we're running **on shared 
 
 :::{admonition} Not trying to scare you!
 :class: important
-**This does xnot mean you should be afraid to use our resources!** The guidelines below are meant to help you use the resources *well*.
+**This does not mean you should be afraid to use our resources!** The guidelines below are meant to help you use the resources *well*.
 :::
 
 ## General Guidelines for Responsible Use
