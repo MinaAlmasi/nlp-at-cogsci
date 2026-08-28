@@ -17,23 +17,10 @@ parts:
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
-        sections:
-          - file: virtual_environments/001_install.md
-          - file: virtual_environments/002_activate.md
-          - file: virtual_environments/003_alternatives.md
       - file: dependency_management.md
       - file: github.md
-        sections:
-          - file: github/001_create_repo.md
-          - file: github/002_integrate_ucloud.md
-          - file: github/003_push_and_pull.md
-          - file: github/004_branch.md
-          - file: github/005_structure.md
       - file: python_scripts.md
       - file: tmux.md
-      - file: pathlib.md
-        sections:
-            - file: pathlib/001_navigate.ipynb
   - caption: Additional Resources
     chapters:
       - file: references.md
