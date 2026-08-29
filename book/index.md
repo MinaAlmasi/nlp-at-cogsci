@@ -6,7 +6,7 @@ Welcome to **workbook** for the **Natural Language Processing** course on the Co
 
 This course is run by  **Mina Almasi** (mina@cc.au.dk), the creator of this book!
 
-### Quick Links
+## Quick Links
 This book contains **all code and class exercises**. Other useful content can be found here:
 ::::{grid}
 :gutter: 3

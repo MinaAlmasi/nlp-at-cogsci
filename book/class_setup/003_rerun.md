@@ -54,6 +54,6 @@ name: new job!
 When you have updated your job, press Submit to get coding again!
 ```{figure} ../figures/class_setup/step3-submit-button.png
 ---
-name: new job!
+name: submit-button
 ---
 ```
