@@ -4,7 +4,7 @@ The sections below gives you a step-by-step on how to get started with UCloud. A
 1. Find `Coder Python` on the workspace `E26_LICS_NaturalLanguageProcessing`
 2. Mount folders `nlp` (created within your own member files) and `resources` (shared drive provided by me)
 3. Choose an appropriate machine size for X amount of hours 
-4. Submit a job !
+4. Submit a job !!
 
 ## Choose the Right Workspace
 Go to [https://cloud.sdu.dk/app](https://cloud.sdu.dk/app). In the top right corner, choose the workspace `E26_LICS_NaturalLanguageProcessing`:
@@ -14,12 +14,11 @@ Go to [https://cloud.sdu.dk/app](https://cloud.sdu.dk/app). In the top right cor
 height: 130px
 name: choose-right-workspace
 ---
-
+```
 :::{tip} 
 Hit the *star button* to favourite the workspace :)
 :::
 
-```
 > If you are not part of the workspace yet, check instructions on [Brightspace](https://brightspace.au.dk/d2l/home/216059) or ask me.
 
 ### Find Coder Python
@@ -30,7 +29,7 @@ On the left sidebar, find **Applications** by clicking the **shopping cart**:
 height: 200px
 name: shopping_cart
 ---
-````
+```
 
 Find `Coder`:
 
@@ -50,7 +49,7 @@ name: coder-python-select-version
 ```
 
 ```{tip} 
-Hit the *star button* to favourite Coder Python *after* selecting the correct version. Then you will more easily be able to find it next time!
+Hit the *star button* to favourite Coder Python (3) *after* selecting the correct version. Then you will more easily be able to find it next time!
 ```
 
 ### Defining Your Job 
@@ -79,9 +78,9 @@ name: select right cpu
 ---
 ```
 
-:::{admonition} Selecting a Machine: Be Mindful!
-:class: warning
-The machine size (i.e., amount of ram) depends on the NLP task, with later classes needing bigger machines (and even GPUs!). Please read the sections [UCloud: Best Practice](/book/ucloud_best_practice.md) for how to be mindful about our shared resources! We don't have unlimited!
+:::{admonition} Selecting a Machine: Be Mindful of Our Shared Resources!
+:class: warning, dropdown
+The machine size (i.e., amount of ram) depends on the NLP task, with later classes needing bigger machines (and even GPUs!). Please read the sections [UCloud. Best Practice](../ucloud_best_practice.md) for how to be mindful about our shared resources! I.e., how to select the right machine for your job!
 
 **I will also recommend a machine size prior to each class, where you'll begin to get a feel for it.**
 :::
@@ -91,7 +90,7 @@ The machine size (i.e., amount of ram) depends on the NLP task, with later class
 Scroll down to **Select folders to use** and click on **Add folder**:
 ```{figure} ../figures/class_setup/step1-add-folder-2026.png
 ---
-name: add folder
+name: add-folder-part-1
 ---
 ```
 > Only the folders you choose here will be available for the duration of this UCloud job.
@@ -99,7 +98,7 @@ name: add folder
 Now press on empty white bar (which says *No directory selected*):
 ```{figure} ../figures/class_setup/step1-add-folder-part-2-2026.png
 ---
-name: add folder
+name: add-folder-part-2
 ---
 ```
 
@@ -172,10 +171,10 @@ name: interface
 
 
 :::{admonition} Extending the job
-:class: tip
+:class: tip, dropdown
 You can easily extend your job by an hour (+1) or more with the three buttons below **Time Remaining** on the left box.
 
-See [UCloud: Best Practice](/book/ucloud_best_practice.md).
+Remember to extend realistically (i.e,. not +8 if you only need +2 hours). See [UCloud. Best Practice](../ucloud_best_practice.md).
 :::
 
 ### Detail: "Trusting the workspace" 
