@@ -18,6 +18,9 @@ parts:
           - file: class1/001_simple_tokenization.ipynb
           - file: class1/002_spacy.ipynb
           - file: class1/003_advanced_analysis.ipynb
+          - file: class1/004_from_scratch.md
+            sections:
+              - file: class1/from_scratch/004A_simple_bpe_tokenizer.ipynb
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
