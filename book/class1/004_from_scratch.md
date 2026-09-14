@@ -1,3 +1,4 @@
+(4-BPE-intro)=
 # Exercise 4. From the Ground Up: BPE!
 Last year, some students asked for more coding exercises that were more "bottom-up" or "from scratch" instead of always applying high-level packages. 
 
