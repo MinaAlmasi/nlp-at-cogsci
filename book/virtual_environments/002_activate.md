@@ -41,3 +41,13 @@ Select ".venv":
 Should look like this, if it worked:
 ![activate your venv in notebook](../figures/virtual_environments/jp-venv-3.png)
 
+:::{admonition} HELP! I can't see my newly created `.venv` in this list
+:class: tip, dropdown
+For some reason, it helps to refresh the literal browser page ? Then it seems to appear on the list! 
+
+**This is of course given that you have already installed ipykernel and attached it properly** (following {ref}`Step 3<venv-step3>` on the previous page!)
+```
+python3 -m ipykernel install --user --name=.venv 
+# NB you need to be in folder where your jupyter notebooks are!!
+```
+::::
