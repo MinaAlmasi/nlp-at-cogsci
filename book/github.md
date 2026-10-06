@@ -1,5 +1,7 @@
 # GitHub
-For reproducibility, `git` is a very useful tool. It lets us keep track of different versions of our code and makes it easy to go back to an earlier version if new changes cause problems. Platforms like `GitHub` or `GitLab` use `git` to let us share code and collaborate with others.
+For reproducibility, `git` is a very useful tool. **It lets us keep track of different versions of our code and makes it easy to go back to an earlier version** if new changes cause problems. 
+
+Platforms like `GitHub` or `GitLab` use `git` to let us share code and collaborate with others.
 
 ```{figure} figures/github/transform_as_git_header_modified.png
 ---

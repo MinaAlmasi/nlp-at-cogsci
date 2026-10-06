@@ -1,14 +1,15 @@
 # Dependencies & Setup Script
 Now that we have a virtual environment with the required packages, we can reliably reproduce our code on UCloud each time we open a run!
 
-However, to ensure others (and our future selfs!) can do the same without issues, proper dependency management is essential!
+However, to ensure others (and our future selves!) can do the same without issues, **proper dependency management is essential!**
 
-```{figure} /figures/dependency_management/python-dep-management-larger.png
+```{figure} /figures/dependency_management/requirements-txt.png
 ---
 name: dep-illustration
 width: 80%
+alt: requirements.txt file shown in terminal
 ---
-AI-generated, modified by me!
+Figure from [TowardsDataScience](https://towardsdatascience.com/python-pipreqs-how-to-create-requirements-txt-file-like-a-sane-person-c82da5d5cd13/)
 ```
 
 This involves creating a `requirements.txt`!
@@ -39,9 +40,10 @@ pip list | grep numpy
 
 Then you can create a `requirements.txt` and add `numpy==1.26.4` (or whatever your command said) as a line in the file.
 
-:::{important}
+:::{admonition} Re-download to check that `requirements.txt` has all the necessary packages!
+:class: important, dropdown
 Manually creating a `requirements.txt` gives you full control, but you might accidentally leave out some packages you use.  
-- To avoid issues, you should try to re-install your venv + requirements.txt in a diff. folder or machine and see if all your code works with your install setup!
+- To avoid issues, **you should try to re-install your venv + requirements.txt in a diff. folder or machine and run your code again**. This is to check if all your code works with your install setup!
 
 We usually avoid saving the entire `pip list` because `requirements.txt` should include only the packages you explicitly import, not all their dependencies.
 :::
@@ -69,7 +71,8 @@ Get `pigar` to do the work:
 pigar generate
 ```
 
-:::{important}
+:::{admonition} Manually check `pigar`!!
+:class: dropdown, important
 This is the first time I use pigar, and I think it did quite well, but I would *always* recommend checking the `requirements.txt`:
 - Add any packages that are missing or remove weird ones added that you did not import
 - To avoid issues, you should try to re-install your venv + requirements.txt in a diff. folder or machine and see if all your code works with your install setup!
