@@ -35,11 +35,23 @@ parts:
           - file: class3/003_play.ipynb
           - file: class3/004_from_scratch.md
       - file: class4_intro.md
+        sections:
+          - file: class4/001_assignment.md
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
+        sections:
+          - file: virtual_environments/001_install.md
+          - file: virtual_environments/002_activate.md
+          - file: virtual_environments/003_alternatives.md
       - file: dependency_management.md
       - file: github.md
+        sections:
+          - file: github/001_create_repo.md
+          - file: github/002_integrate_ucloud.md
+          - file: github/003_push_and_pull.md
+          - file: github/004_branch.md
+          - file: github/005_structure.md
       - file: python_scripts.md
       - file: tmux.md
   - caption: Additional Resources

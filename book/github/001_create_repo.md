@@ -2,9 +2,9 @@
 Let's begin a new repository for a code project that is in Python. 
 
 ## Create a New Repo
-Go to [github.com](https://github.com/). On the main page, there should be a green "new" button that you should press:
+Go to [github.com](https://github.com/). On the main page, in the top right corner, there is a "+" button for you to press where you can create a new repository:
 
-```{figure} ../figures/github/1-git-new-repo.png
+```{figure} ../figures/github/1-git-new-repo-2026.png
 ---
 name: new-repo
 width: 90%

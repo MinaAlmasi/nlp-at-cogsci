@@ -1,2 +1,20 @@
 # Class 4. Managing Code Projects
-Coming Soon!
+Today's focus is on code management, and we'll cover a lot of stuff together in class. 
+
+I have also prepared tutorials and resources that you can rely on to practice the workflows independently.  
+
+## Homework
+After Class 4, I recommend going through all the pages in the `Advanced Workflow` section and practicing different parts of the workflow:
+
+- [Virtual Environments](virtual_environments.md)
+- [Dependencies & Setup Script](dependency_management.md)
+- [GitHub](github.md)
+- [Python Scripts](python_scripts.md)
+- [Tmux](tmux.md)
+
+If you have any questions or comments for this, remember that you can use the Q&A Taskcards on BrightSpace (or ask me in person).
+
+## Exam Prep Assignment
+We have also prepared a short assignment for you to complete over the next few weeks.  
+
+The full description is available on the next page, but also on **Brightspace** (where will need to hand it in).
