@@ -1,4 +1,6 @@
 ## REQUIREMENTS FILE FOR NOTEBOOKS IN BOOK #
+## Works for classes 1 to 4 (E2025 edition, but used in E2026 for first 4 classes).
+## My impression is that it is especially textdescriptives that requires a low version of numpy!
 
 # added with pigar
 datasets==4.1.1 # in ucloud it is 4.4.1 (probably safe to upgrade, will keep this version for now)
