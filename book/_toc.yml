@@ -38,6 +38,10 @@ parts:
         sections:
           - file: class4/001_assignment.md
       - file: class5_intro.md
+        sections: 
+          - file: class5/001_finetune.ipynb
+          - file: class5/002_setfit.ipynb
+          - file: class5/003_other_tasks.ipynb
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
@@ -55,6 +59,9 @@ parts:
           - file: github/005_structure.md
       - file: python_scripts.md
       - file: tmux.md
+      - file: pathlib.md
+        sections: 
+          - file: pathlib/001_navigate.ipynb 
   - caption: Additional Resources
     chapters:
       - file: references.md
