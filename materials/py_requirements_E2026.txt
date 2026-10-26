@@ -11,3 +11,5 @@ torch==2.14.1
 transformers==5.20.2 
 accelerate==1.15.0
 ipykernel==7.4.0
+
+# NB. exercise 1 in class 6 needs transformers below <5.0 (due to T5 model), and exercise 1 in class 8 (due to dialz package)
