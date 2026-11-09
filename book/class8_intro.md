@@ -1,5 +1,7 @@
 # Class 8. NLP for Social Good
-Today's class explores how NLP can be applied for positive social impact. For example, we may want to prevent LLMs from producing harmful stereotypes ([Exercise 1](/book/class8/001_steering_vectors.ipynb)):
+**Today's class explores how NLP can be applied for positive social impact.** 
+
+For example, we may want to prevent LLMs from producing harmful stereotypes ([Exercise 1](/book/class8/001_steering_vectors.ipynb)):
 
 ```{admonition} RESEARCH QUESTION
 Can we compute steering vectors to guide LLMs away from producing harmful outputs, such as hateful or stereotypical content?
