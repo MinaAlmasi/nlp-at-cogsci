@@ -8,6 +8,7 @@ teachbooks-sphinx-tippy>=1.0.15
 sphinx-iframes>=1.2.0
 sphinx-named-colors>=1.0.3
 sphinx-book-theme>=1.3.0
+six>=1.17.0
 
 # accessibility options
 sphinx-accessibility>=1.0.1
