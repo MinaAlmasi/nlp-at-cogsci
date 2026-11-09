@@ -14,6 +14,11 @@ To what extent can parameter-efficient fine-tuning via LoRa produce an LLM capab
 
 **As you will see, even approaches like steering vectors, applied with the best intentions, raise complex ethical questions.**
 
+```{admonition} GPU
+:class: important
+You may use a GPU for today's class! The smallest GPU will suffice (1/7th, also called `gpu-nvidia-b200-1-mig-1g`).
+```
+
 ## Learning Guide
 Whenever there is a red box, you should stop and either answer a question or do a hands-on exercise:
 ```{admonition} HANDS-ON
@@ -28,9 +33,4 @@ For loops are ..
 ```
 
 ## Let's do some exercises
-Before you click on, remember to start your UCloud run and create a new Jupyter Notebook as described in the **[Class Setup](../book/class_setup.md)**.
-
-```{admonition} GPU
-:class: important
-You may use a GPU for this task, see the [GPU Guide](../book/gpu_guide.md) for setup and best practices! Remember to use the GPU resources wisely :)
-```
+Before you click on, remember to start your UCloud run and create a new Jupyter Notebook as described in the **[Class Setup](../book/class_setup.md)**. You can use the smallest GPU today (see above)
