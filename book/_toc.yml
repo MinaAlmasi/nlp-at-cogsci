@@ -47,6 +47,7 @@ parts:
           - file: class6/001_prompting.ipynb
           - file: class6/002_chatbot.ipynb
           - file: class6/003_llms.ipynb
+      - file: class8_intro.md
   - caption: Advanced Workflow
     chapters: 
       - file: virtual_environments.md
